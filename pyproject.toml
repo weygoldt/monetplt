@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "monetplt"
+version = "0.0.1"
+description = "A simple library to orchestrate matplotlib styles inspired by Monet's paintings."
+authors = ["Patrick Weygoldt <patrick@weygoldt.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
